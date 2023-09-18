@@ -8,6 +8,7 @@ public class ReplaceSpace {
 		char ch = '-';
 		
 		str=str.replace(' ', ch);
+//		str=str.replace(' ', '-');
 		
 		System.out.println("String after replacing spaces with given character: ");    
         System.out.println(str); 
