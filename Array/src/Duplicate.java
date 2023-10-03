@@ -23,7 +23,7 @@ public class Duplicate {
 		}
 		System.out.println("Array :");
 		for(int i=0; i<arr.length;i++) {
-			System.out.println(arr[i]);
+			System.out.print(arr[i]);
 		}
 		
 		
