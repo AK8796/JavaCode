@@ -16,7 +16,7 @@ public class Frequency {
 					fr[j] = visited;
 				}
 			}
-			if(fr[i] != visited) {
+			if(fr[i] != visited) { // to avoid counting of -1
 				fr[i]= count;
 			}
 		}

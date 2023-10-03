@@ -7,9 +7,9 @@ public class EvenPosition {
 		
 		System.out.println("Array : ");
 		for(int i=0; i<arr.length;i++) {
-			System.out.println(arr[i]);
+			System.out.print(arr[i]);
 		}
-		
+		System.out.println();
 		System.out.println("Array elements at even position :");
 		for(int i=1; i<arr.length; i=i+2) {
 			System.out.println(arr[i]);

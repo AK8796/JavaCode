@@ -49,7 +49,7 @@ public class RemoveDuplicate {
 		
 		System.out.println();
 		
-		int arr1[] = new int [] {10,20,20,30,40,40,50,50};
+		int arr1[] = new int [] {10,10,20,20,30,40,40,50,50};
 		int m=arr.length;
 		
 		int length1= removeDuplicateElements1(arr1 , m);

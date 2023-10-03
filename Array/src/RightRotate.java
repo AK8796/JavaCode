@@ -5,7 +5,7 @@ public class RightRotate {
 		// TODO Auto-generated method stub
 		int n=3;
 		int arr [] = new int[] {1,2,3,4,5};
-		
+//		System.out.println(arr.length);//5
 		System.out.println("Original array : ");
 		for(int i=0; i<arr.length;i++) {
 			System.out.print( arr[i]);
@@ -28,3 +28,8 @@ public class RightRotate {
 	}
 
 }
+/*
+ 51234=> 12344 => 12334=>12234 => 11234 =>51234(arr[0]=last)
+ 45123
+ 34512 
+  */

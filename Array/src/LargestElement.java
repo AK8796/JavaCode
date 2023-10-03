@@ -8,16 +8,19 @@ public class LargestElement {
 		
 		System.out.println("Array : ");
 		for(int i=0; i<arr.length;i++) {
-			System.out.println(arr[i]);
+			System.out.print(arr[i]+" ");
 		}
 		int max=arr[0];
+		
+		System.out.println();
+		
 		System.out.println("Largest Number is : ");
 		for(int i=1; i<arr.length;i++) {
 			if(arr[i]>max) {
 				max=arr[i];
 			}
 		}
-		System.out.println("Max element in array" +max);
+		System.out.print(max);
 	}
 
 }

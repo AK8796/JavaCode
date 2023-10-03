@@ -38,8 +38,8 @@ public class ThirdLargestElement {
 		int b[] = new int[]{2,5,3,6,9,10,7};
 		Integer c[]= {2,5,3,9,7,4,6};
 		System.out.println("Third Largest number : " +getNumber(a,a.length));
-		System.out.println("Third largest number : " +getNumber1(c,c.length));
 		System.out.println("Third largest number : " +getNumber2(b,b.length));
+		System.out.println("Third largest number : " +getNumber1(c,c.length));
 
 	}
 

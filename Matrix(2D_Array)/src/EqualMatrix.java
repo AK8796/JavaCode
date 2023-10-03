@@ -14,12 +14,16 @@ public class EqualMatrix {
 		boolean flag=true;
 		
 		row1=a.length; //number of rows
-		col1=a[0].length;//number of columns  
-		                                      
-		/*Since all rows in a 2D array have the same number of columns,you can use the length of any row to determine the number of columns in the entire matrix.*/
-		
+		col1=a[0].length;//number of column		
 		row2=b.length;
 		col2=b[0].length;
+		
+		/*Since all rows in a 2D array have the same number of columns,you can use the length of any row to determine the number of columns in the entire matrix.*/
+		
+		System.out.println(row1);
+		System.out.println(col1);
+		System.out.println(row2);
+		System.out.println(col2);
 		
 		if(row1 != row2 || col1 != col2) {
 			System.out.println("Not Equal Matrix");

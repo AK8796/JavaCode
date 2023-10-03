@@ -18,10 +18,11 @@ public class RotateLeft {
 				arr[j]=arr[j+1];
 			}
 			arr[j]=first;
+//			arr[arr.length-1]=first;
 		}
 		
 		System.out.println();
-		System.out.println("Revered Array : ");;
+		System.out.println("Left Rotated Array : ");;
 		
 		for(int i=0; i<arr.length;i++) {
 			System.out.print(arr[i]);
