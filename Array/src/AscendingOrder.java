@@ -4,7 +4,7 @@ public class AscendingOrder {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-        int arr [] = new int[] {5,9,1,3,4};
+        int arr [] = new int[] {9,8,5,1,6};
 		
 		System.out.println("Original array : ");
 		for(int i=0; i<arr.length;i++) {
